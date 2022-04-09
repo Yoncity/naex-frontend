@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/background_2.png") no-repeat;
+  background-size: cover;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+.nft_container {
+  display: flex;
+  overflow-x: auto;
+  font-size: 18px;
+  z-index: 2;
+  padding: 20px 50px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  min-width: 230px;
+  max-height: 400px;
+  margin: 10px 20px;
+  background: #fff;
+  z-index: 1;
+}
+.nft_name {
+  color: #333;
+  padding: 5px 10px;
+}
+.nft_price {
+  display: flex;
+  padding: 5px;
+}
+.amount {
+  margin-left: 5px;
+}

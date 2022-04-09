@@ -1,0 +1,30 @@
+.header_container {
+  padding: 30px 30px 15px 30px;
+  display: flex;
+  font-size: 32px;
+  align-items: center;
+  color: #888;
+
+  p {
+    padding: 0 20px;
+    margin: 0 20px;
+    z-index: 1;
+  }
+  .active {
+    color: #fff;
+  }
+  .links {
+    display: flex;
+    flex: 1;
+    p {
+      cursor: pointer;
+    }
+    p:hover {
+      color: #ccc;
+    }
+  }
+  .total {
+    font-size: 24px;
+    color: #fff;
+  }
+}
